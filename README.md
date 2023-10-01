@@ -36,3 +36,24 @@ With a Car's dataset given, the business goal is to understand the attributes th
 |Type| The body type or style of the vehicle (e.g., sedan, SUV, truck).|
 |Paint Color| The color of the vehicle's exterior paint.|
 |State| The state where the vehicle is listed for sale.|
+
+![Data Info](/images/df_info.png)
+
+### Check for Missing values
+
+There are a lot of missing values we could drop in prep phase.
+
+![Missing Values](/images/missing_values.png)
+
+
+### Check for outliers
+
+Price column has outliers that could be removed in data prep. The below plots show the same.
+
+![Price Outlier](/images/price_outliers.png)
+
+### Explore price by category columns
+
+![Price By Categories](/images/price_by_category.png)
+
+
