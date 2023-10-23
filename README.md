@@ -72,3 +72,41 @@ Now, Fill missing values with estimators
 ![Imputer](/images/imputer.png)
 
 
+# Modeling
+
+Picked features Below, and dropped other features:
+
+```
+'manufacturer'
+'condition'
+'cylinders'
+'fuel'
+'title_status'
+'transmission'
+'drive'
+'type'
+'year'
+'odometer'
+```
+
+Developed and tested 5 models.
+
+## 1. Linear Regression with all features with polynomial Degree 1.
+
+![LineReg - all](/images/model1.png)
+
+## 2. Linear Regression with 50 features with polynomial Degree 1
+
+![LineReg - 50 - 1](/images/model2.png)
+
+## 3. Linear Regression with 50 features with polynomial degree 3
+
+![LineReg - 50 - 3](/images/model3.png)
+
+## 4. Lasso with polynomial degree 3
+
+![Lasso](/images/model4.png)
+
+## 5. Ridge Regression
+
+![Ridge](/images/model5.png)
