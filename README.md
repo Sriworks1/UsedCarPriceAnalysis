@@ -110,3 +110,13 @@ Developed and tested 5 models.
 ## 5. Ridge Regression
 
 ![Ridge](/images/model5.png)
+
+# Evaluation
+
+Upon evaluating, Ridge Model produces better results.
+
+![Evaluation](/images/evaluation.png)
+
+# Deployment
+
+Model 5 - ridge model with alpha = 1 and Polynomial Features (degree = 3) will be deployed as it is the best performing model. 
