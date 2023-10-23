@@ -15,7 +15,6 @@ With a Car's dataset given, the business goal is to understand the attributes th
 
 ## Data Understanding
 
-
 | Field | Description |
 | ----- | ----------- |
 | ID | An identifier or unique identifier for each entry in the dataset.|
@@ -55,5 +54,21 @@ Price column has outliers that could be removed in data prep. The below plots sh
 ### Explore price by category columns
 
 ![Price By Categories](/images/price_by_category.png)
+
+
+## Data Preparation
+
+Do basic data cleanup like 
+
+1. Remove duplicates
+2. Remove null values
+3. Set Id as index.
+4. Remove VIN Column in leu of Id column
+
+![Basic Cleanup](/images/base-cleanup.png)
+
+Now, Fill missing values with estimators
+
+![Imputer](/images/imputer.png)
 
 
